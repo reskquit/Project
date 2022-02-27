@@ -1,5 +1,0 @@
-<footer class="footer">
-      <div class="our_information">
-
-      </div>
-    </footer>
