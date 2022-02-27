@@ -1,0 +1,179 @@
+.MAIN_body{
+    margin: 0px;
+}
+.footer {
+    width: 100%;
+    padding: 45px 0;
+    font-size: 14px;
+    line-height: 22px;
+}
+.our_information{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.space{
+    background-color: white;
+    height: auto;
+    width: 100%;
+    min-height: 500px;
+}
+ul {
+    list-style-type:none;
+    padding: 0 10px;
+}
+footer{
+    
+    background-color: #215273;
+    height: 300px;
+}
+
+.top{
+    background-color:#205072;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.main_space{
+    display: flex;
+    position:relative;
+    background: rgba(255, 0, 0, 0,5);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -150px;
+    margin-bottom: 50px;
+    height: auto;
+}
+.kostl{
+    background-color: #205072 ;
+    width:100%;
+    height: 100px;
+}
+.menu_way{
+    
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 0, 0, 0,5);
+}
+.text{
+    background-color: white;
+    border-color: black;
+    border: solid;
+    width: 100%;
+    height: auto;
+
+}
+.imcontainermenu{
+    display: block;
+    width: 90%;
+    
+    height: auto;
+    
+    
+}
+.rt{
+    margin-top: 0px;
+    border-color: black ;
+    border: solid;
+    border-top: unset;
+    padding-top: 10px;
+}
+.stable{
+    margin-top: 0px;
+}
+.menu_dot_text{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 100%;
+    padding: 5px;
+ 
+}
+.html_menu{
+    display: block;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+.qw{
+    display: flex;
+
+}
+#htmlbutton{
+    background-color: rgb(255, 255, 255);
+    border-color: black ;
+    border: solid;
+    
+    border-bottom: unset;
+    width: 50%;
+}
+#htmlbutton p{
+    text-align: center;
+}
+#cssbutton{
+    border-color: black ;
+    border: solid;
+    border-top: unset;
+    border-left: unset;
+    border-right: unset;
+    background-color: #205072;
+    width: 50%;
+}
+#cssbutton p{
+    text-align: center;
+}
+.menu_dot{
+    background-color: #3cdb98;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 40px;
+    
+    vertical-align: middle;
+}
+.div_block{
+    margin: 5%;
+}
+li, p{
+    font-size: 25px;
+}
+.special{
+    font-size: 25px;
+    position: relative;
+	color: black; 
+	cursor: pointer;
+	line-height: 1; 
+	text-decoration: none; 
+    transition: color 1.5s;
+}
+.special:after{
+    display: block;
+	position: absolute;
+	left: 0; 
+	width: 0;
+	height: 2px; 
+	background-color: black; /*отвечает за подчеркивание*/
+	content: "";
+	transition: width 0.3s ease-in; 
+}
+.special:hover:after {
+	width: 100%;
+}
+
+code, kbd{
+    background-color: #e3e3e3;
+    border-radius: 5px;
+}
+.sc{
+    background-color:rgb(255, 255, 255);
+    margin-top: 0px;
+    border-color: black;
+    border: solid;
+    border-top: unset;
+    padding-top: 10px;
+}

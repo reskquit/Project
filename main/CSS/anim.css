@@ -1,0 +1,105 @@
+@media (max-width: 500px){
+
+    .first_directory{
+        height: 50%;
+        background-color:  #215273;
+        width: 100%;
+        
+    }
+    .second_directory{
+        height: 50%;
+        background-color:#54c494;
+        width: 100%;
+    }
+    .main_block{
+        height: 100%;
+        margin: 0px;
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .block_one {
+        height: 30%;
+        width: 100%;
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        align-content: center;
+        justify-content: space-around;
+    }
+    .block_two{
+        height: 30%;
+        width: 100%;
+        background-color: #dae3de;
+        margin: 5px;
+        border-radius: 30px;
+    }
+    .menu_container {
+        background-color: #54c494;
+        height: 40%;
+        width: 40%;
+        border-radius: 7px;
+        margin: 5px;
+    }
+}
+@media (min-width: 501px){
+    
+    .first_directory{
+        height: 100%;
+        background-color:  #215273;
+        width: 50%;
+        
+    }
+    .second_directory{
+        background-color: #54c494;
+        height: 100%;
+        width: 50%;
+    }
+    .main_block {
+        height: 50%;
+        margin-left:20%;
+        margin-right: 20%;
+        
+        display: flex;
+        flex-direction: row;
+    }
+    .block_one{
+        height: 100%;
+        width: 100%;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .block_two{
+        height: 100%;
+        width: 100%;
+        background-color: #dae3de;
+        margin: 5px;
+        border-radius: 30px;
+    }
+    .menu_container{
+        background-color: #54c494;
+        height: 30%;
+        width: 90%;
+        border-radius: 10px;
+        margin: 2% 0;
+    }
+}
+.menu_container:hover{
+    animation-name: animation_shadow;
+    animation-duration: 0.15s;
+    animation-fill-mode: both;
+}
+@keyframes animation_shadow{
+    from{
+        box-shadow: none;
+    }
+    to{
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+}
